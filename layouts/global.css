@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap');
+
+:root {
+    /* --primary-color: rgb(253, 253, 253); */
+    --primary-color: rgb( 126, 30, 252);
+    --primary-high-transparent: rgba(126, 30, 252, 0.7);
+    --primary-low-transparent: rgba(126, 30, 252, 0.3);
+    --primary-variant: rgb(233, 69, 96);
+    --secondary-color: rgb(15, 52, 96);
+    --on-primary: rgb(26, 26, 46);
+    --on-background: rgb(255, 255, 255);
+    --on-background-alt: rgba(235, 235, 235, 0.9);
+    --background: rgb(22, 33, 62);
+    --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme="dark"] {
+    --primary-color: rgb(126, 30, 252);
+    --primary-variant: #6c63ff;
+    --secondary-color: #03dac5;
+    --on-primary: #000;
+    --on-background: rgba(255, 255, 255, 0.9);
+    --on-background-alt: rgba(255, 255, 255, 0.7);
+    --background: #1A1A2E;
+  }
+  
+ 
+
+html{
+    font-family: 'Klee One', cursive,'Courier New', Courier, monospace;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+}
+
+
+
+ 
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 3rem;
+
+}
+h4{
+    font-size: 2.5rem;
+}
+h5{
+    font-size: 2rem;
+}
+
+h6{
+    font-size: 1.5rem;
+}
+
+
+
+@keyframes spin-right {
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spin-left {
+    100% {
+      -webkit-transform: rotate(-360deg);
+      -moz-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+      -o-transform: rotate(-360deg);
+      transform: rotate(-360deg);
+    }
+  }
+
+  @keyframes hovering {
+    0%,
+    100% {
+      transform: translate(0, 0) ;
+    }
+  
+    50% {
+      transform: translate(0, 10px);
+    }
+  }
+  
